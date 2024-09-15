@@ -1,0 +1,79 @@
+/* MODULOS DE ESTILOS */
+@import 'navegacion.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+@import 'skills.css';
+@import 'services.css';
+@import 'projects.css';
+
+
+/* PALETA DE COLORES */
+:root {
+     --text: #3f3f3f;
+     --orange: #e9b108;
+     --violet: #5b4a9a;
+     --blue-bg: #843BFB;
+     --shadow-default: 0px 0px 6px rgba(0, 0, 0, 0.4);
+
+
+   }
+
+/* ESTILOS GENERALES */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+     scroll-behavior: smooth;
+ }
+
+img {
+	width: 30%;
+     /* height: 30%; */
+     object-fit: contain;
+}
+
+body {
+     height: 100%;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+	font-weight: 400;
+     background-image: url('/img/hero_mini.svg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 720px;
+     background-color: #f2f2f2;
+     margin: auto;
+}
+
+.contenedor {
+     background-image: url(/img/pattern_2.svg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     /* width: 100%; */
+     background-color: #fff;
+	width: 90%;
+     /* height: 1800px; */
+	max-width: 1200px;
+	margin: 40px auto;
+	padding: 40px;
+	border-radius: 10px;
+     box-shadow: var(--shadow-default);
+}
+
+@media screen and (max-width: 915px) {
+     main {
+          flex-direction: column;
+          text-align: center;
+     }
+
+     main .contenedor-img {
+          margin-bottom: 40px;
+     }
+}

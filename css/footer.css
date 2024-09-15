@@ -1,0 +1,12 @@
+.footer {
+    position: relative;
+    z-index: -1;
+    background-image: url('/img/hero_mini.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 450px;
+    transform: rotate(180deg); /* Rota la imagen 180 grados */
+    transform-origin: center; /* Ajusta el punto de origen de la rotación */
+}

@@ -1,0 +1,107 @@
+/* Estilo general para la sección de skills */
+#skills-section {
+    position: relative;
+    margin-top: 60px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor de skills (el rectángulo de fondo) */
+.skills-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+}
+
+/* Fondo rectangular */
+.skills-bg {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height: 200px;;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: var(--blue-bg);
+}
+
+/* Estilo general de las habilidades */
+.skills {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2; /* Colocando las cards por encima del fondo */
+}
+
+/* Posicionamiento para soft y hard skills */
+.softskills {
+    left: 0;
+    transform: translateY(-15%);
+}
+
+.hardskills {
+    right: 0;
+    transform: translateY(35%);
+}
+
+/* Cards de cada habilidad */
+.skill-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow-default);
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    transform: translateY(-50%); /* Mueve la mitad de la card hacia arriba para que la mitad quede fuera */
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: var(--text);
+    margin-top: 10px;
+}
+
+.hardskills .skill-card img {
+    width: 100px;
+}
+
+.hardskills .skill-card {
+    padding: 10px;
+}
+
+/* Estilo para hacer el diseño responsive */
+@media screen and (max-width: 768px) {
+    .skills-wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills-bg {
+        top: 100px;
+        height: 300px;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .softskills, .hardskills {
+        transform: translateY(0);
+        width: 100%;
+    }
+
+    .skill-card {
+        width: 90%;
+    }
+}
