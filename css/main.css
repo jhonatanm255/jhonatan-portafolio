@@ -1,8 +1,8 @@
 .about-me {
     display: flex;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
-    margin: 70px auto;
+    margin: 20px auto;
     gap: 50px;
 }
 
@@ -11,9 +11,11 @@
     background-size: contain;
     background-position: start;
     background-repeat: no-repeat;
-    width: 160px;
+    width: 210px;
     display: flex;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: var(--shadow-default);
 }
 
 .about-content p {

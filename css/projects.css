@@ -6,8 +6,96 @@
 }
 
 .project {
-    background-color: aqua;
-    border-radius: 15px;
+    width: 250px;
     height: 250px;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 
 }
+
+.app {
+    background-image: url(/img/app\ resident.png);
+    box-shadow: var(--shadow-default);
+}
+
+.dashboard {
+    background-image: url(/img/dashboard.png);
+    box-shadow: var(--shadow-default);
+}
+
+.samel {
+    background-image: url(/img/samel.png);
+    box-shadow: var(--shadow-default);
+}
+
+.mareo {
+    background-image: url(/img/mareo.png);
+    box-shadow: var(--shadow-default);
+}
+
+.works {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  /* OVERLAY IN THE CARDS */
+  .project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .project:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .project:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .overlay p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+
+
+

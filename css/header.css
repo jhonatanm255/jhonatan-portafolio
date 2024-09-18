@@ -60,7 +60,6 @@ main .contenedor-img {
     margin-right: 10px;
     text-decoration: none;
     background: #f2f2f2;
-    box-shadow: var(--shadow-default);
 }
 
 .btn-link:hover,
