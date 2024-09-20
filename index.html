@@ -10,6 +10,10 @@
      <!-- GOOGLE FONT IBM PLEX MONO -->
      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      <!-- *******  Owl Carousel Links  ******* -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+      <!-- OWL CAROUSEL LIBRARY -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
       <!--ESTILOS GENERALES  -->
      <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -28,7 +32,7 @@
                          <a class="btn-link activo" href="#services">Services</a>
                     </nav>
                </header>
-
+          
                <!-- HEADER -->
                <main>
                     <div class="contenedor-texto">
@@ -39,7 +43,7 @@
                          <div class="contac">
                               <!-- LINK CV -->
                               <div class="cv">
-                                   <a href="#" class="btn-link activo">Download CV</a>
+                                   <a id="downloadCv" href="#" class="btn-link activo">Download CV</a>
                                    <a href="#" class="btn-link">Contact Me</a>       
                               </div>
                               <!-- SOCIAL NETWORK -->
@@ -47,14 +51,15 @@
                                    <a href="https://www.linkedin.com/in/jhonatan-mu%C3%B1oz-1aa8bb28b/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>
                                    <a href="https://github.com/jhonatanm255" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
                                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class='insta bx bxl-instagram-alt' ></i></a>
-                                   <a href="https://www.youtube.com/@Jhonatanm255" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
+                                   <a href="https://www.youtube.com/@LoFiMusic-f4t" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
                               </div>
                          </div>
                     </div>
                     <!-- IMG PERFIL -->
                     <div class="contenedor-img"></div>
                          <img src="./img/jhonatan-perfil.png" alt="">
-                    </div>
+                    
+          
                </main>
                
                <div id="title-about-principal" class="title-about-principal">
@@ -89,15 +94,15 @@
                                              <img src="img/icon/javascript.svg" alt="">
                                         </div>
                                         <h5>Web Development</h5>
-                                        <p>Sólidos conocimientos en el desarrollo web con HTML, CSS y JavaScript para crear interfaces dinámicas y responsivas.</p>
+                                        <p>Solid knowledge in web development with HTML, CSS, and JavaScript to create dynamic and responsive interfaces.</p>
                                    </div>
                                    <div class="skill-card">
                                         <div class="img-tech">
                                              <img src="img/icon/Github_light.svg" alt="">
                                              <img src="img/icon/git.svg" alt="">
                                         </div>
-                                        <h5>Control version</h5>
-                                        <p>Experiencia en control de versiones con Git y GitHub, gestionando proyectos de manera eficiente y colaborativa</p>
+                                        <h5>Control Version</h5>
+                                        <p>Experience in version control with Git and GitHub, managing projects efficiently and collaboratively.</p>
                                    </div>                                 
                                    <div class="skill-card">
                                         <div class="img-tech">
@@ -105,7 +110,7 @@
                                              <img src="img/icon/firebase.svg" alt="">
                                         </div>
                                         <h5>Ui UX Data Base</h5>
-                                        <p>Desarrollo de aplicaciones web modernas con React y Firebase, integrando bases de datos en tiempo real y autenticación.</p>
+                                        <p>Development of modern web applications with React and Firebase, integrating real-time databases and authentication.</p>
                                    </div>                             
                               </div>
                               <!-- HARDSKILL -->
@@ -113,17 +118,17 @@
                                  <div class="skill-card">
                                         <img src="img/icon/example-12.svg" alt="">
                                         <h5>Comunication</h5>
-                                        <p>Habilidad para comunicar ideas de forma clara y efectiva en entornos de trabajo colaborativo.</p>
+                                        <p>Ability to communicate ideas clearly and effectively in collaborative work environments.</p>
                                  </div>
                                  <div class="skill-card">
                                         <img src="img/icon/example-29.svg" alt="">
                                         <h5>Time Management</h5>
-                                        <p>Eficiencia en la gestión del tiempo, priorizando tareas para cumplir con plazos y objetivos.</p>
+                                        <p>Efficiency in time management, prioritizing tasks to meet deadlines and goals.</p>
                                  </div>
                                  <div class="skill-card">
                                         <img src="img/icon/example-8.svg" alt="">
                                         <h5>Teamwork</h5>
-                                        <p>Capacidad para colaborar de manera proactiva en proyectos grupales, resolviendo problemas en equipo.</p>
+                                        <p>Ability to proactively collaborate on group projects, solving problems as a team.</p>
                                  </div>
                              </div>
                          </div>
@@ -141,12 +146,11 @@
                          <div class="modal-text">
                               <h2 id="modal-title">Title</h2>
                               <p id="modal-description">Description</p>
+                              <button id="btn-review" onclick="openProject()">Ver Proyecto</button>
                          </div>
                          </div>
                          </div>
                     </div>
-   
-   
 
                     <div class="works">
                          <div class="project app" onclick="openModal('app')">
@@ -178,24 +182,22 @@
                          </div>
                        </div>
 
-                    <div id="services" class="title-about big projects">Services</div>
+                    <div id="services" class="title-about big projects">Comments</div>
 
-                    <div class="skilled">
-                         <div class="softskills"></div>
-                         <div class="hardskills"></div>
-                    </div>
                </div>   
           </div>
-
-          
      </div>
      <div class="footer">
           <div class="foot">
                
           </div>
      </div>
-
+        
+ 
+     </div>
+     <!-- LIBRARY TYPED -->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-     <script src="./js/main.js"></script>
+     <script src="/js/firebaseConfig.js"></script>
+     <script src="js/main.js"></script>
 </body>
 </html>

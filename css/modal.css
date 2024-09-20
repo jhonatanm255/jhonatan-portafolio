@@ -56,5 +56,15 @@
   margin-top: 10px;
 }
 
+#btn-review {
+  background-color: var(--blue-bg);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 120px;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: var(--shadow-default);
+}
   
   
