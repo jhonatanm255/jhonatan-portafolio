@@ -19,22 +19,22 @@
 }
 
 .app {
-    background-image: url(img/app\ resident.png);
+    background-image: url(/img/app\ resident.png);
     box-shadow: var(--shadow-default);
 }
 
 .dashboard {
-    background-image: url(img/dashboard.png);
+    background-image: url(/img/dashboard.png);
     box-shadow: var(--shadow-default);
 }
 
 .samel {
-    background-image: url(img/samel.png);
+    background-image: url(/img/samel.png);
     box-shadow: var(--shadow-default);
 }
 
 .mareo {
-    background-image: url(img/mareo.png);
+    background-image: url(/img/mareo.png);
     box-shadow: var(--shadow-default);
 }
 
