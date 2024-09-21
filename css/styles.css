@@ -45,7 +45,7 @@ body {
      font-family: 'Open Sans', sans-serif;
      font-size: 16px;
 	font-weight: 400;
-     background-image: url('/img/hero_mini.svg');
+     background-image: url('../img/hero_mini.svg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
 }
 
 .contenedor {
-     background-image: url(img/pattern_2.svg);
+     background-image: url(../img/pattern_2.svg);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
