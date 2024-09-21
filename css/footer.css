@@ -7,7 +7,7 @@
     margin-top: 40px;
     padding: 20px 0;
     border-radius: 15px;
-    background-image: url(./img/hero_mini.svg);
+    background-image: url(../img/hero_mini.svg);
     background-position: center; /* Centra la imagen */
     background-size: cover;      /* Hace que la imagen cubra toda el área sin deformarse */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
