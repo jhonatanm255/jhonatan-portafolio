@@ -7,7 +7,7 @@
 }
 
 .about-me img {
-    background-image: url('/img/bg_hero_2.svg');
+    background-image: url('img/bg_hero_2.svg');
     background-size: contain;
     background-position: start;
     background-repeat: no-repeat;
