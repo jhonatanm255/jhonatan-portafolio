@@ -56,7 +56,7 @@ body {
 }
 
 .contenedor {
-     background-image: url(/img/pattern_2.svg);
+     background-image: url(img/pattern_2.svg);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
