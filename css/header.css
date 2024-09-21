@@ -72,7 +72,6 @@ main .contenedor-img {
 .network {
     display: flex;
     gap: 25px;
-    margin-top: 25px;
     font-size: 35px;
 }
 
@@ -82,4 +81,8 @@ main .contenedor-img {
 
 .network a:hover {
     color: var(--text);
+}
+
+.cv {
+    margin-bottom: 25px;
 }

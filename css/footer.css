@@ -1,12 +1,161 @@
+
 .footer {
-    position: relative;
-    z-index: -1;
-    background-image: url('/img/hero_mini.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    min-height: 450px;
-    transform: rotate(180deg); /* Rota la imagen 180 grados */
-    transform-origin: center; /* Ajusta el punto de origen de la rotación */
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    padding: 20px 0;
+    border-radius: 15px;
+    background-image: url(/img/hero_mini.svg);
+    background-position: center; /* Centra la imagen */
+    background-size: cover;      /* Hace que la imagen cubra toda el área sin deformarse */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.form-contact {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.social {
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.social .network a {
+    color: aliceblue;
+}
+
+.name-last {
+    display: flex;
+    gap: 10px;
+}
+
+.footer input {
+    display: block;
+    margin: 7px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px rgb(189, 189, 189);
+    box-shadow: var(--shadow-default);
+    outline: none;
+}
+
+.footer textarea {
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 10px;
+    margin-top: 7px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    box-shadow: var(--shadow-default);
+}
+
+.footer textarea::placeholder {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.footer button {
+    border: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: var(--shadow-default);
+    font-size: 16px;
+}
+
+.social .ft {
+    font-size: 24px;
+}
+
+.address {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.address .bx {
+    color: aliceblue;
+}
+
+.address p {
+    color: aliceblue;
+}
+
+.mail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.mail .bx {
+    color: aliceblue;
+}
+
+.mail p {
+    display: flex;
+}
+
+.mail .copy {
+    text-align: center;
+    font-size: 16px;
+    color: var(--text);
+}
+
+.span {
+    background-color: aliceblue;
+    color: var(--text);
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-default);
+}
+
+.span {
+    cursor: copy;
+}
+
+#msj-copy {
+    display: none;
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.nav-bar-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-bar-foot a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.nav-bar-foot a:hover {
+    color: var(--blue-bg);
+    border-bottom: solid 1px var(--blue-bg);
+}
+
+.nav-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-footer .network {
+    display: flex;
+    align-items: center;
 }
