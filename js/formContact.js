@@ -1,32 +1,30 @@
 
 
-    const form = document.querySelector('.form-contact form');
-    const btnSend = document.getElementById('btn-send');
+    // const form = document.querySelector('.form-contact form');
+    // const btnSend = document.getElementById('btn-send');
 
-    form.addEventListener('submit', (e) => {
-        e.preventDefault(); // Evita que el formulario se envíe de inmediato
+    // form.addEventListener('submit', (e) => {
+    //     e.preventDefault(); // Evita que el formulario se envíe de inmediato
 
-        // Cambia el texto del botón a "Enviando..."
-        btnSend.textContent = "Sending...";
+    //     // Cambia el texto del botón a "Enviando..."
+    //     btnSend.textContent = "Sending...";
         
-        // Envía el formulario
-        fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form),
-        })
-        .then(response => {
-            if (response.ok) {
-                alert("¡Mensaje enviado con éxito!");
-                form.reset(); // Reinicia el formulario
-            } else {
-                alert("Error al enviar el mensaje. Inténtalo de nuevo.");
-            }
-        })
-        .catch(error => {
-            alert("Error: " + error);
-        })
-        .finally(() => {
-            btnSend.textContent = "Send Message"; // Restablece el texto del botón
-        });
-    });
+    //     fetch(form.action, {
+    //         method: 'POST',
+    //         body: new FormData(form),
+    //         mode: 'no-cors',  // Evita el problema de CORS
+    //     })
+    //     .then(() => {
+    //         alert("¡Mensaje enviado con éxito!");
+    //         form.reset(); // Reinicia el formulario
+    //     })
+    //     .catch(error => {
+    //         alert("Error: " + error);
+    //     })
+    //     .finally(() => {
+    //         btnSend.textContent = "Send Message"; // Restablece el texto del botón
+    //     });
+        
+        
+    // });
 

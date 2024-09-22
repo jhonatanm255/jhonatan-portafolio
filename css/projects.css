@@ -95,7 +95,9 @@
     margin-top: 5px;
     font-size: 16px;
   }
-  
 
+  .overlay .img-tech img {
+    width: 20px;
+  }
 
 
