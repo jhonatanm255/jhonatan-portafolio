@@ -19,7 +19,7 @@
 }
 
 .app {
-    background-image: url(../../img/app\ resident.png);
+    background-image: url(/img/app\ resident.png);
     box-shadow: var(--shadow-default);
 }
 
