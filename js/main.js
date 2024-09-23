@@ -63,7 +63,7 @@ const typed = new Typed('.typed', {
 			modalTitle.textContent = 'Mareo Music';
 			modalDescription.style.color = 'var(--text)';
 			modalDescription.textContent = 'This website was designed for the musical group Mareo, recognized for its fresh and elegant style. The site highlights both the band and its individual members, with sections dedicated to their music, information about the band, live performances, and a contact page. It includes songs, new releases, upcoming performances, links to social networks, and a form to contact your manager directly. The site was developed with HTML, CSS, and JavaScript, using the Scroll Reveal library to add animations that make the content more dynamic.';
-			modalImage.src = '../img/mareo.png';
+			modalImage.src = 'img/mareo.png';
 			projectURL = 'https://jhonatanm255.github.io/Mareo-Music/'; 
 		}
 		
