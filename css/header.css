@@ -86,3 +86,26 @@ main .contenedor-img {
 .cv {
     margin-bottom: 25px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 425px) {
+  main {
+    display: block;
+  }
+
+  .contenedor-texto {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén apilados verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+    margin-bottom: 70px;
+  }
+
+  main .contenedor-img img {
+    display: none;
+  }
+
+  .contenedor-texto p {
+    padding: 0 10px;
+}
+}

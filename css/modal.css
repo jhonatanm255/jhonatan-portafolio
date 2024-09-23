@@ -66,5 +66,39 @@
   margin-top: 15px;
   box-shadow: var(--shadow-default);
 }
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 425px) {
+
+    .modal-content {
+      width: 100%;
+    }
+
+    .modal-body {
+      display: block;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .modal-text {
+      width: 100%;
+      text-align: left;
+    }
+
+    .modal-image {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 20px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    #btn-review {
+      display: flex;
+      justify-content: center;
+      margin: 20px auto 0;
+    }
+  }
   
   

@@ -112,6 +112,10 @@
         width: 100%;
     }
 
+    .skills .big {
+      margin-top: 400px;
+    }
+
     .softskills, .hardskills {
         transform: translateY(0);
         width: 100%;
@@ -120,4 +124,36 @@
     .skill-card {
         width: 90%;
     }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 425px) {
+ .skills-bg {
+  height: 150px;
+ }
+
+ .softskills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 350px;
+  transform: translateY(-63%);
+ }
+
+ .hardskills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 350px;
+  transform: translateY(125%);
+ }
+
+ .skill-card h5 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.skill-card p {
+  font-size: 16px;
+}
 }

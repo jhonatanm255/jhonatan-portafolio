@@ -6,6 +6,10 @@ header {
      margin-bottom: 30px;
 }
 
+#btn-burger {
+  display: none;
+}
+
 .logo img {
      display: flex;
      align-items: center;
@@ -40,4 +44,48 @@ header {
 
 .menu a:hover {
 	border-bottom: 2px solid var(--violet);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 425px) {
+
+  header {
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 110px; /* Justo debajo del header */
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 15px; /* Espacio entre enlaces */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  #btn-burger {
+    display: block;
+    font-size: 36px;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .contenedor-texto .network {
+    display: flex;
+    justify-content: center;
+  }
 }

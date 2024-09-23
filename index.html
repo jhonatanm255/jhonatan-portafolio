@@ -20,13 +20,14 @@
                <header>
                     <a href="#" class="logo"><img src="img/logo-init.png" alt="logo-init"></a>
                     <!-- <h1 class="logo"><span class="big-llaves">{</span> JhonCode <span class="big-llaves">}</span></h1> -->
-                    <nav class="menu">
+                    <nav class="menu active">
                          <a href="#">Home</a>
                          <a href="#title-about-principal">About Me</a>
                          <a href="#skills">Skills</a>
                          <a href="#projects">Projects</a>
                          <a class="btn-link activo" href="#services">Contact</a>
                     </nav>
+                    <a id="btn-burger" href="#"><i class='bx bx-menu'></i></a>
                </header>
           
                <!-- HEADER -->
@@ -52,9 +53,9 @@
                          </div>
                     </div>
                     <!-- IMG PERFIL -->
-                    <div class="contenedor-img"></div>
-                         <img src="img/jhonatan-perfil.png" alt="image-perfil">
-                    
+                    <div class="contenedor-img">
+                         <!-- <img src="img/jhonatan-perfil.png" alt="image-perfil"> -->
+                    </div>
                </main>
                
                <div id="title-about-principal" class="title-about-principal">
@@ -63,7 +64,7 @@
                
                <div class="about-me">
                     <div class="img">
-                         <img src="img/about-img.png" alt="image-about">
+                         <img src="img/jhonatan-perfil.png" alt="image-about">
                     </div>
                     <div class="about-content">
                          <h3 class="logo">Jhonatan Muñoz</h3>
@@ -75,61 +76,70 @@
                     </div>
                </div>
 
-               <div id="skills" class="title-about-principal"></div>
-                    <div class="title-about big">Skills</div>
-                    <div id="skills-section">
-                         <div class="skills-wrapper">
-                             <div class="skills-bg"></div>
-                             <!-- SOFTSKILL -->
-                             <div class="skills softskills">
-                                   <div class="skill-card">
-                                        <div class="img-tech">
-                                             <img src="img/icon/html5.svg" alt="logo-html5">
-                                             <img src="img/icon/css.svg" alt="logo-css">
-                                             <img src="img/icon/javascript.svg" alt="logo-javascript">
-                                        </div>
-                                        <h5>Web Development</h5>
-                                        <p>Solid knowledge in web development with HTML, CSS, and JavaScript to create dynamic and responsive interfaces.</p>
-                                   </div>
-                                   <div class="skill-card">
-                                        <div class="img-tech">
-                                             <img src="img/icon/Github_light.svg" alt="logo-github">
-                                             <img src="img/icon/git.svg" alt="logo-git">
-                                        </div>
-                                        <h5>Control Version</h5>
-                                        <p>Experience in version control with Git and GitHub, managing projects efficiently and collaboratively.</p>
-                                   </div>                                 
-                                   <div class="skill-card">
-                                        <div class="img-tech">
-                                             <img src="img/icon/react.svg" alt="logo-react">
-                                             <img src="img/icon/firebase.svg" alt="logo-firebase">
-                                        </div>
-                                        <h5>Ui UX Data Base</h5>
-                                        <p>Development of modern web applications with React and Firebase, integrating real-time databases and authentication.</p>
-                                   </div>                             
-                              </div>
-                              <!-- HARDSKILL -->
-                             <div class="skills hardskills">
-                                 <div class="skill-card">
-                                        <img src="img/icon/example-12.svg" alt="image-comunication">
-                                        <h5>Comunication</h5>
-                                        <p>Ability to communicate ideas clearly and effectively in collaborative work environments.</p>
-                                 </div>
-                                 <div class="skill-card">
-                                        <img src="img/icon/example-29.svg" alt="image-time">
-                                        <h5>Time Management</h5>
-                                        <p>Efficiency in time management, prioritizing tasks to meet deadlines and goals.</p>
-                                 </div>
-                                 <div class="skill-card">
-                                        <img src="img/icon/example-8.svg" alt="image-teamwork">
-                                        <h5>Teamwork</h5>
-                                        <p>Ability to proactively collaborate on group projects, solving problems as a team.</p>
-                                 </div>
-                             </div>
-                         </div>
+               <!-- SKILLS -->
+               <div id="skills" class="title-about-principal">
+                <div class="title-about big">Skills</div>
+                <div id="skills-section">
+                  <div class="skills-wrapper">
+                    <div class="skills-bg"></div>
+                      <!-- SOFTSKILL -->
+                      <div class="skills softskills">
+              
+                        <div class="skill-card">
+                          <div class="img-tech">
+                            <img src="img/icon/html5.svg" alt="logo-html5">
+                            <img src="img/icon/css.svg" alt="logo-css">
+                            <img src="img/icon/javascript.svg" alt="logo-javascript">
+                          </div>
+                          <h5>Web Development</h5>
+                          <p>Solid knowledge in web development with HTML, CSS, and JavaScript to create dynamic and responsive interfaces.</p>
+                        </div>
+              
+                        <div class="skill-card">
+                          <div class="img-tech">
+                            <img src="img/icon/Github_light.svg" alt="logo-github">
+                            <img src="img/icon/git.svg" alt="logo-git">
+                          </div>
+                          <h5>Control Version</h5>
+                          <p>Experience in version control with Git and GitHub, managing projects efficiently and.</p>
+                        </div>    
+              
+                        <div class="skill-card">
+                          <div class="img-tech">
+                            <img src="img/icon/react.svg" alt="logo-react">
+                            <img src="img/icon/firebase.svg" alt="logo-firebase">
+                          </div>
+                            <h5>Ui UX Data Base</h5>
+                            <p>Development of modern web applications with React and Firebase, integrating real-time databases and authentication.</p>
+                        </div>    
+              
+                      </div>
+              
+                      <!-- HARDSKILL -->
+                      <div class="skills hardskills">
+              
+                        <div class="skill-card">
+                          <img src="img/icon/example-12.svg" alt="image-comunication">
+                          <h5>Comunication</h5>
+                          <p>Ability to communicate ideas clearly and effectively in collaborative work environments.</p>
+                        </div>
+              
+                        <div class="skill-card">
+                          <img src="img/icon/example-29.svg" alt="image-time">
+                          <h5>Time Management</h5>
+                          <p>Efficiency in time management, prioritizing tasks to meet deadlines and goals.</p>
+                        </div>
+              
+                        <div class=" team skill-card">
+                          <img src="img/icon/example-8.svg" alt="image-teamwork">
+                          <h5>Teamwork</h5>
+                          <p>Ability to proactively collaborate on group projects, solving problems as a team.</p>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+              </div>
                      
-                    <div id="projects" class="title-about big projects">Projects</div>
 
                     <!-- MODAL -->
                    <!-- Modal Structure -->
@@ -146,7 +156,9 @@
                          </div>
                          </div>
                     </div>
-
+                    
+                  <div class="project-content">
+                    <div id="projects" class="title-about big projects">Projects</div>
                     <div class="works">
                          <div class="project app" onclick="openModal('app')">
                               <div class="overlay">
@@ -200,6 +212,7 @@
                               </div>
                          </div>
                     </div>
+                  </div>
                </div>
 
                     <div id="services" class="title-about big projects">Contact Me</div>
@@ -215,7 +228,7 @@
                                    <p>
                                        <span id="copy-message" class="span">jhonm21@gmail.com <i class='copy bx bxs-copy'></i></span>
                                    </p>
-                                   <span id="msj-copy" style="display:none;">Copied Email</span>
+                                   <span id="msj-copy" style="display:none;"><i class='bx bxs-check-circle'></i></span>
                                </div>
                          </div>
 
@@ -233,7 +246,7 @@
                     </div>
                     <hr> 
                     <div class="nav-footer">
-                         <a href="#" class="logo"><img src="img/logo-init.png" alt="logo inicio"></a>
+                         <!-- <a href="#" class="logo"><img src="img/logo-init.png" alt="logo inicio"></a> -->
                          <nav class="nav-bar-foot">
                               <a href="#">Home</a>
                               <a href="#title-about-principal">About Me</a>

@@ -87,7 +87,7 @@
   }
   
   .overlay h2 {
-    margin: 0;
+    margin: 50px 0 0;
     font-size: 24px;
   }
   
@@ -99,5 +99,49 @@
   .overlay .img-tech img {
     width: 20px;
   }
+
+  .overlay .img-tech {
+    margin-bottom: 20px;
+  }
+
+  /* RESPONSIVE */
+@media screen and (max-width: 425px) {
+  .works {
+    display: block;
+    margin-top: 100%;
+  }
+
+  .app {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+   .dashboard {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+   .samel {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+   .mareo {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+   .project .overlay {
+    opacity: 1;
+  }
+
+  #projects {
+  margin: 350px 0 40px;
+  }
+}
 
 

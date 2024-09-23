@@ -12,13 +12,11 @@
 
 /* PALETA DE COLORES */
 :root {
-     --text: #3f3f3f;
-     --orange: #e9b108;
-     --violet: #5b4a9a;
-     --blue-bg: #843BFB;
-     --shadow-default: 0px 0px 6px rgba(0, 0, 0, 0.4);
-
-
+    --text: #3f3f3f;
+    --orange: #e9b108;
+    --violet: #5b4a9a;
+    --blue-bg: #843BFB;
+    --shadow-default: 0px 0px 6px rgba(0, 0, 0, 0.4);
    }
 
 /* ESTILOS GENERALES */
@@ -29,55 +27,56 @@
 }
 
 html{
-     scroll-behavior: smooth;
+  scroll-behavior: smooth;
  }
 
 img {
-	width: 30%;
-     /* height: 30%; */
-     object-fit: contain;
-     margin-right: 5%;
+	 width: 30%;
+  /* height: 30%; */
+  object-fit: contain;
+  margin-right: 5%;
 }
 
 body {
-     max-width: 1440px;
-     height: 100%;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
+  max-width: 1440px;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 	font-weight: 400;
-     background-image: url('../img/hero_mini.svg');
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     width: 100%;
-     height: 720px;
-     background-color: #f2f2f2;
-     margin: auto;
+  background-image: url('../img/hero_mini.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  background-color: #f2f2f2;
+  margin: auto;
 }
 
 .contenedor {
-     background-image: url(../img/pattern_2.svg);
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     /* width: 100%; */
-     background-color: #fff;
+  background-image: url(../img/pattern_2.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-color: #fff;
 	width: 90%;
-     /* height: 1800px; */
+  /* height: 1800px; */
 	max-width: 1200px;
 	margin: 40px auto;
 	padding: 40px;
 	border-radius: 10px;
-     box-shadow: var(--shadow-default);
+  box-shadow: var(--shadow-default);
 }
 
-@media screen and (max-width: 915px) {
-     main {
-          flex-direction: column;
-          text-align: center;
-     }
+/* RESPONSIVE */
+@media screen and (max-width: 425px) {
+     
+  .contenedor {
+    width: 100%;
+  }
 
-     main .contenedor-img {
-          margin-bottom: 40px;
-     }
+  .contenedor-2 {
+    width: 100%;
+  }  
 }

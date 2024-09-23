@@ -125,4 +125,10 @@ function copyEmail(e) {
     }, 3000);
 }
 
+// FUNCION DEL MENU HAMBURGUESA
+const btnBurger = document.getElementById('btn-burger');
+btnBurger.addEventListener('click', () => {
+  const menuList = document.querySelector('.menu');
+  menuList.classList.toggle('active')
+});
 
