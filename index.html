@@ -12,6 +12,8 @@
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
       <!--ESTILOS GENERALES  -->
      <link rel="stylesheet" href="css/styles.css">
+     <!-- SCROLL REVEAL -->
+     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
      <div class="contenedor">
@@ -24,7 +26,7 @@
                          <a href="#">Home</a>
                          <a href="#title-about-principal">About Me</a>
                          <a href="#skills">Skills</a>
-                         <a href="#projects">Projects</a>
+                         <a href="#work">Projects</a>
                          <a class="btn-link activo" href="#services">Contact</a>
                     </nav>
                     <!-- <a id="btn-burger" href="#"><i class='bx bx-menu'></i></a> -->
@@ -166,8 +168,8 @@
                     
                   <div class="project-content">
                     <div id="projects" class="title-about big projects"><span>Projects</s></div>
-                    <div class="works">
-                         <div class="project app" onclick="openModal('app')">
+                    <div id="work" class="works">
+                         <div id="app" class="project app" onclick="openModal('app')">
                               <div class="overlay">
                                    <h2>App Project</h2>
                                    <p>Web Application Control</p>
@@ -180,7 +182,7 @@
                               </div>
                          </div>
 
-                         <div class="project dashboard" onclick="openModal('dashboard')">       
+                         <div id="dashboard" class="project dashboard" onclick="openModal('dashboard')">       
                               <div class="overlay">
                                    <h2>Dashboard Project</h2>
                                    <p>Admin Dashboard</p>
@@ -258,7 +260,7 @@
                               <a href="#">Home</a>
                               <a href="#title-about-principal">About Me</a>
                               <a href="#skills">Skills</a>
-                              <a href="#projects">Projects</a>
+                              <a href="#work">Projects</a>
                               <a href="#services">Contact</a>
                          </nav>
                          <!-- SOCIAL NETWORK -->
@@ -275,10 +277,11 @@
      </div>
      </div>
 
-     <!-- LIBRARY TYPED -->
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- LIBRARY TYPED -->
+	  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
      <!-- <script src="js/formContact.js"></script> -->
      <script src="js/firebaseConfig.js"></script>
+     <script src="js/scrollReveal.js"></script>
      <script src="js/main.js"></script>
 </body>
 </html>
