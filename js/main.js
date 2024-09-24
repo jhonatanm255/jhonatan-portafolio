@@ -36,7 +36,7 @@ const typed = new Typed('.typed', {
 			modalTitle.textContent = 'Condominium Control';
 			modalDescription.style.color = 'var(--text)';
 			modalDescription.textContent = 'This application was developed to optimize and organize the data of the residents of a condominium. Initially, its focus was limited to a single condominium, but it expanded to be a generalizable tool for multiple condominiums. Its main functionalities include: a cloud database, user authentication through email and Google, CRUD operations with resident and condominium data, and data migration by reading QR codes. Currently, I am working on a new functionality that will allow the export of data through a numerical code, avoiding the need to have both devices nearby, as occurs with QR codes. The application uses HTML, CSS and JavaScript for the frontend, Firebase for the backend and version control with Git.';
-			modalImage.src = '../img/app\ resident.png';
+			modalImage.src = 'img/app\ resident.png';
 			projectURL = 'https://jhonatanm255.github.io/App-Nunoa/#';
 
 		} else if (project === 'dashboard') {
@@ -45,7 +45,7 @@ const typed = new Typed('.typed', {
 			modalTitle.textContent = 'Dashboard Project';
 			modalDescription.style.color = 'var(--text)';
 			modalDescription.textContent = 'This dashboard was initially created as a practice for positioning elements with CSS. Later, interactive features were added using JavaScript, such as dark mode and a TradingView widget that shows the shares of relevant companies in the market. It was also integrated with the Binance API through WebSocket to display the price and volume of the most important cryptocurrencies in real time. In addition, the API of the "miindicador.cl" site was implemented to obtain key economic data from Chile, such as the value of the dollar, euro, UF, UTM, and IMACEC.';
-			modalImage.src = '../img/dashboard.png';
+			modalImage.src = 'img/dashboard.png';
 			projectURL = 'https://jhonatanm255.github.io/dashboard/';
 
 		} else if (project === 'samel') {
@@ -54,7 +54,7 @@ const typed = new Typed('.typed', {
 			modalTitle.textContent = 'Samel Castillo';
 			modalDescription.style.color = 'var(--text)';
 			modalDescription.textContent = 'This website was designed for Samel Castillo, a graphic artist and tattoo artist who was looking to display his work digitally to reach more clients. The site, which has a dark mode design, includes sections about his career, his portfolio of work, an image gallery, and a contact form for scheduling appointments. In addition, it has a testimonials section where customers can leave comments about their experience. An administration panel was also developed for the artist to manage their content, including the option to upload or delete images from the gallery and moderate comments.';
-			modalImage.src = '../img/samel.png';
+			modalImage.src = 'img/samel.png';
 			projectURL = 'https://jhonatanm255.github.io/samel/';
 
 		} else if (project === 'mareo') {
