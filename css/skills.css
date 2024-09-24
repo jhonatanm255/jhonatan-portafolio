@@ -1,8 +1,8 @@
 /* Estilo general para la sección de skills */
 #skills-section {
     position: relative;
-    margin-top: 40px;
-    padding: 60px 0;
+    /* margin-top: 40px; */
+    /* padding: 60px 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,12 +55,12 @@
 /* Posicionamiento para soft y hard skills */
 .softskills {
     left: 0;
-    transform: translateY(-5%);
+    /* transform: translateY(-5%); */
 }
 
 .hardskills {
     right: 0;
-    transform: translateY(44%);
+    /* transform: translateY(44%); */
 }
 
 /* Cards de cada habilidad */
@@ -74,7 +74,7 @@
     text-align: center;
     position: relative;
     z-index: 3;
-    transform: translateY(-50%); /* Mueve la mitad de la card hacia arriba para que la mitad quede fuera */
+    transform: translateY(0%); /* Mueve la mitad de la card hacia arriba para que la mitad quede fuera */
 }
 
 .skill-card h5 {
@@ -96,36 +96,6 @@
     background-color: #ffffff;
 }
 
-/* Estilo para hacer el diseño responsive */
-@media screen and (max-width: 768px) {
-    .skills-wrapper {
-        width: 100%;
-        height: auto;
-    }
-
-    .skills-bg {
-        top: 100px;
-        height: 300px;
-    }
-
-    .skills {
-        width: 100%;
-    }
-
-    .skills .big {
-      margin-top: 400px;
-    }
-
-    .softskills, .hardskills {
-        transform: translateY(0);
-        width: 100%;
-    }
-
-    .skill-card {
-        width: 90%;
-    }
-}
-
 /* RESPONSIVE */
 @media screen and (max-width: 425px) {
  .skills-bg {
@@ -136,8 +106,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 350px;
-  transform: translateY(-63%);
+  /* height: 350px; */
+  transform: translateY(-95%);
  }
 
  .hardskills {
@@ -145,7 +115,7 @@
   flex-direction: column;
   width: 100%;
   height: 350px;
-  transform: translateY(125%);
+  transform: translateY(80%);
  }
 
  .skill-card h5 {
@@ -156,4 +126,7 @@
 .skill-card p {
   font-size: 16px;
 }
-}
+
+.skills-wrapper {
+  margin-top: 480px;
+}}

@@ -108,7 +108,7 @@
 @media screen and (max-width: 425px) {
   .works {
     display: block;
-    margin-top: 100%;
+    /* margin-top: 100%; */
   }
 
   .app {
@@ -140,7 +140,14 @@
   }
 
   #projects {
-  margin: 350px 0 40px;
+  margin: 50px 0 40px;
+  }
+
+  .projects span {
+    margin-top: 380px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
   }
 }
 
