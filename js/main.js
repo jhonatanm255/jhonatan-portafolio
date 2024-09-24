@@ -94,7 +94,7 @@ const typed = new Typed('.typed', {
 	// Función para abrir el PDF en una nueva ventana
 	function openPDF() {
 		// Ruta al archivo PDF en tu proyecto
-		const pdfPath = 'cv/jhonatanHarry.pdf';
+		const pdfPath = '../cv/jhonatanHarry.pdf';
 		
 		// Abrir el PDF en una nueva pestaña
 		window.open(pdfPath, '_blank');
@@ -125,10 +125,13 @@ function copyEmail(e) {
     }, 3000);
 }
 
-// FUNCION DEL MENU HAMBURGUESA
-const btnBurger = document.getElementById('btn-burger');
-btnBurger.addEventListener('click', () => {
-  const menuList = document.querySelector('.menu');
-  menuList.classList.toggle('active')
-});
+  // FUNCION DEL MENU HAMBURGUESA
+  const btnBurger = document.getElementById('btn-burger');
+  btnBurger.addEventListener('click', () => {
+    const menuList = document.querySelector('.menu');
+    menuList.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
+  });
+
+
 
