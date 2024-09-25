@@ -2,14 +2,14 @@
 // Inicializar ScrollReveal
 // LOGO
 ScrollReveal().reveal('.logo', {
-  origin: 'left',       // Aparece desde la izquierda
-  distance: '30px',    // Se desplaza 100px
-  duration: 1000,       // Dura 1 segundo
-  delay: 100,           // Retraso de 0.3 segundos
-  scale: 0.50,          // Aparece "creciendo" desde el 85% de su tamaño
-  opacity: 0,           // Comienza invisible
-  reset: false,         // Solo se anima la primera vez
-  easing: 'ease-in-out',  // Animación suave
+  origin: 'left',
+  distance: '30px',
+  duration: 1000,
+  delay: 100,
+  scale: 0.50,
+  opacity: 0,
+  reset: false,
+  easing: 'ease-in-out',
   viewFactor: 0.3 
 });
 
@@ -159,7 +159,7 @@ ScrollReveal().reveal('.form-contact', {
 
 // NAV BAR FOOT
 ScrollReveal().reveal('.nav-bar-foot', {
-  origin: 'left',
+  origin: 'top',
   distance: '50px',
   duration: 1000,
   delay: 450,
