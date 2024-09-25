@@ -209,3 +209,10 @@
     font-size: 60px;
   }
 }
+
+/* 601 - 1024 */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .contenedor {
+    padding: 10px !important;
+  }
+}

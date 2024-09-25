@@ -86,7 +86,7 @@
     }
 
     .modal-image {
-      width: 50%;
+      width: 90%;
       display: flex;
       justify-content: center;
       margin: 0 auto 20px;
@@ -100,5 +100,29 @@
       margin: 20px auto 0;
     }
   }
+
+  /* 601 - 1024 */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .modal-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #modal-description {
+    font-size: 14px;
+  }
+
+  .modal-image {
+    width: 40%;
+  }
+
+  .modal-body {
+    gap: 5px;
+  }
+
+  .modal-text {
+    width: 60%;
+  }
+}
   
   

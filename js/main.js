@@ -37,6 +37,7 @@ const typed = new Typed('.typed', {
 			modalDescription.style.color = 'var(--text)';
 			modalDescription.textContent = 'This application was developed to optimize and organize the data of the residents of a condominium. Initially, its focus was limited to a single condominium, but it expanded to be a generalizable tool for multiple condominiums. Its main functionalities include: a cloud database, user authentication through email and Google, CRUD operations with resident and condominium data, and data migration by reading QR codes. Currently, I am working on a new functionality that will allow the export of data through a numerical code, avoiding the need to have both devices nearby, as occurs with QR codes. The application uses HTML, CSS and JavaScript for the frontend, Firebase for the backend and version control with Git.';
 			modalImage.src = 'img/app\ resident.png';
+      modalImage.style.height = '300px'
 			projectURL = 'https://jhonatanm255.github.io/App-Nunoa/#';
 
 		} else if (project === 'dashboard') {
