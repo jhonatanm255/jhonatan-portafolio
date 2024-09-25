@@ -95,7 +95,7 @@ const typed = new Typed('.typed', {
 	// Función para abrir el PDF en una nueva ventana
 	function openPDF() {
 		// Ruta al archivo PDF en tu proyecto
-		const pdfPath = '../cv/jhonatanHarry.pdf';
+		const pdfPath = '/cv/jhonatanHarry.pdf';
 		
 		// Abrir el PDF en una nueva pestaña
 		window.open(pdfPath, '_blank');
